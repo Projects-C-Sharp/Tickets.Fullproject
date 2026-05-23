@@ -1,0 +1,14 @@
+APP_NAME="Teatro Kepler"
+APP_URL=https://kepler.andrescortes.dev
+
+API_BASE_URL=https://api.andrescortes.dev/api
+API_TIMEOUT=30
+
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+GOOGLE_REDIRECT_URI="${APP_URL}/auth/google/callback"
+
+SESSION_DRIVER=redis
+SESSION_LIFETIME=120
+CACHE_DRIVER=redis
+REDIS_URL=redis://localhost:6379
